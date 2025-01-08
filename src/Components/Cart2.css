@@ -1,0 +1,35 @@
+.container{
+    padding-top: 250px;
+    padding-left: 300px;
+    display: flex;
+    
+}
+
+.card{
+    /* box-shadow: 0  0 15px  rgb(152, 237, 152);  */
+    /* box-shadow: 0  0 15px  rgb(242, 94, 94); */
+    box-shadow: 0  0 15px  rgb(37, 37, 37);
+   /* width: 250px;
+   height: 100px; */
+
+}
+
+.star{
+   color:#FDCC0D;
+}
+
+.card-title{
+    font-size:large;
+
+}
+
+.price{
+    font-size: medium;
+}
+.linethrough{
+    text-decoration: line-through;
+
+}
+.red{
+    color:green;
+}
