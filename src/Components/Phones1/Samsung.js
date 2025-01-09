@@ -117,8 +117,19 @@ const Samsung = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-7 col-md-3 col-lg-3">
-        </div>
+        <div className="col-sm-7 col-md-3 col-lg-3"> 
+                <div class="card ">
+                    <div className="p1"><a href='#'><img src={samsungZfold5} class="card-img-top" alt="..." height={"265px"}/></a></div>
+                    <div class="card-body">
+                        <h5 class="card-title">SAMSUNG Galaxy Z Fold5 5G</h5>
+                        <pre className="price"> ₹1,84,999 <spam className="linethrough">₹1,89,999 </spam> <spam className="red">3% Off</spam><br/>
+                        <div className="star"><IoMdStar /><IoMdStar /><IoMdStar /><IoMdStar /><IoMdStarOutline /></div></pre>
+                        <a href="#" class="btn btn-warning btn-sm">Add to cart</a> <a href="#" class="btn btn-primary btn-sm" >Buy Now</a>
+                    </div>
+                </div>
+           </div>
+
+
       </div>
     </div>
   )
