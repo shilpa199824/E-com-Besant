@@ -10,19 +10,20 @@ import Redmi from './Components/Phones1/Redmi';
 import Oppo from './Components/Phones1/Oppo';
 import Google from './Components/Phones1/Google';
 import Realme from './Components/Phones1/Realme';
+import PaymentPage from './Components/PaymentPage';
 
 
 function App() {
     return (
         <div>
-      <Oneplus/>
+      {/* <Oneplus/>
       <Vivo/>
       <Redmi/>
       <Oppo/>
       <Google/>
       <Realme/>
-
-
+ */}
+      <PaymentPage/>
 
         </div>
     )
